@@ -55,10 +55,18 @@ func (d *Dialer) dialFactory(network, address string) (net.Conn, error) {
 		return d.Dialer.Dial(network, address)
 	}
 	if d.KeepAlive != 0 {
-		c.SetKeepAlive(true)
-		c.SetKeepAlivePeriod(d.KeepAlive)
-		c.SetLinger(0)
-		c.SetNoDelay(true)
+		if err = c.SetKeepAlive(true); err != nil {
+			return nil, err
+		}
+		if err = c.SetKeepAlivePeriod(d.KeepAlive); err != nil {
+			return nil, err
+		}
+		if err = c.SetLinger(0); err != nil {
+			return nil, err
+		}
+		if err = c.SetNoDelay(true); err != nil {
+			return nil, err
+		}
 	}
 	return c, err
 }
