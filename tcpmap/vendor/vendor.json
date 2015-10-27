@@ -1,0 +1,26 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "df78bc75a33fd9b582230e052be33dff861f3a4a",
+			"revisionTime": "2015-10-09T17:37:01Z"
+		},
+		{
+			"path": "github.com/bogdanovich/dns_resolver",
+			"revision": "9c1fb6cb07ec7d185f56ee35ca26a781836f44f9",
+			"revisionTime": "2015-09-27T15:25:12-07:00"
+		},
+		{
+			"path": "github.com/miekg/dns",
+			"revision": "dfefa36553955889dbb9ef892d4bd116ec095ce2",
+			"revisionTime": "2015-10-08T12:58:09+01:00"
+		},
+		{
+			"path": "github.com/stretchr/testify/assert",
+			"revision": "f3960ab1f9664ecc4e27c78af27cc9063d745a43",
+			"revisionTime": "2015-10-08T01:55:03+01:00"
+		}
+	]
+}
