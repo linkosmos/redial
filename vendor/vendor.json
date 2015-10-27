@@ -1,0 +1,21 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "df78bc75a33fd9b582230e052be33dff861f3a4a",
+			"revisionTime": "2015-10-09T17:37:01Z"
+		},
+		{
+			"path": "github.com/facebookgo/httpcontrol",
+			"revision": "ccde4420e1fee9af5da365cb76075b95683f39a6",
+			"revisionTime": "2015-07-08T23:40:01Z"
+		},
+		{
+			"path": "gopkg.in/fatih/pool.v2",
+			"revision": "cba550ebf9bce999a02e963296d4bc7a486cb715",
+			"revisionTime": "2015-03-25T18:32:52+02:00"
+		}
+	]
+}
