@@ -6,6 +6,7 @@ Notice: you must use single dialer per host
 
 [![Build Status](https://travis-ci.org/linkosmos/redial.svg?branch=master)](https://travis-ci.org/linkosmos/redial)
 [![GoDoc](http://godoc.org/github.com/linkosmos/redial?status.svg)](http://godoc.org/github.com/linkosmos/redial)
+[![Go Report Card](http://goreportcard.com/badge/linkosmos/redial)](http://goreportcard.com/report/linkosmos/redial)
 [![BSD License](http://img.shields.io/badge/license-BSD-blue.svg)](http://opensource.org/licenses/BSD-3-Clause)
 
 ### Methods
